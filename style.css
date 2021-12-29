@@ -203,3 +203,24 @@ header .logo
     font-size: 2em;
   }
 }
+
+@media only screen and (main-width: 768px)
+{
+  .showcase,
+  .showcase video
+  {
+    padding-bottom: 40px;
+    display: block;
+    width: 100%
+  }
+  .text h2
+  {
+    font-size: 1em;
+  }
+  .text h3
+  {
+    font-size: 0.5em;
+  }
+
+}
+
